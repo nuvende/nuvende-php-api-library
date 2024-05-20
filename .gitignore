@@ -1,0 +1,12 @@
+/vendor/
+composer.phar
+composer.lock
+.DS_Store
+./idea/*
+/.idea/bankingsdk.iml
+/.idea/modules.xml
+/.idea/php.xml
+/.idea/vcs.xml
+/.idea/workspace.xml
+/.idea/*
+.idea/*

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Banking TestSuite" tests="1" assertions="0" errors="1" warnings="0" failures="0" skipped="0" time="0.001962">
+    <testsuite name="Banking\Tests\BankingServiceTest" file="/Users/rogersouza/Desenvolvimento/Web/bankingsdk/tests/BankingServiceTest.php" tests="1" assertions="0" errors="1" warnings="0" failures="0" skipped="0" time="0.001962">
+      <testcase name="testExtract" class="Banking\Tests\BankingServiceTest" classname="Banking.Tests.BankingServiceTest" file="/Users/rogersouza/Desenvolvimento/Web/bankingsdk/tests/BankingServiceTest.php" line="22" assertions="0" time="0.001962">
+        <error type="PHPUnit\Framework\Error\Warning">Banking\Tests\BankingServiceTest::testExtract
+array_merge(): Expected parameter 1 to be an array, null given
+
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testsuites>

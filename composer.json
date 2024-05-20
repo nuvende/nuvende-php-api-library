@@ -1,0 +1,46 @@
+{
+    "name": "nuvende/gateway",
+    "description": "Este pacote serve para realizar integraçoes com o Gateway de Pagamento da Nuvende",
+    "type": "package",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Roger",
+            "email": "roger.florzino@doutbox.com.br",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "illuminate/auth": "^6.0|^7.0|^8.0",
+        "illuminate/container": "^6.0|^7.0|^8.0",
+        "illuminate/contracts": "^6.0|^7.0|^8.0",
+        "illuminate/database": "^6.0|^7.0|^8.0",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "fzaninotto/faker": "~1.8",
+        "phpunit/phpunit": "8.*",
+        "mockery/mockery": "1.*",
+        "symfony/var-dumper": "^5.4"
+    },
+    "suggest": {
+      "ext-simplexml": "Use simplexml support",
+      "ext-mbstring": "Use mbstring support"
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "Nuvende\\Gateway\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Nuvende\\Gateway\\Tests\\": "tests/"
+        }
+    }
+}
